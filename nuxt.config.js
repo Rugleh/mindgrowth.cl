@@ -24,7 +24,7 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
 
@@ -52,6 +52,7 @@ export default {
     '@nuxtjs/markdownit',
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
+    'bootstrap-vue/nuxt',
   ],
   markdownit: {
     injected: true,
