@@ -5,7 +5,9 @@
     <div class="my-3 py-3">
       <h2 class="display-5">Crecimiento de tu negocio</h2>
       <p class="lead">Te acompañamos y te orientamos en el proceso de crecimiento de tu PYME</p>
+
     </div>
+    <img class="image-money" src="~/assets/images/svg/success.svg" alt="mindgrowth sube tus ventas">
    
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-4 px-md-4 text-center overflow-hidden">
