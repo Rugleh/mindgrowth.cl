@@ -13,7 +13,7 @@
       <h2 class="display-5">Aumenta tus ventas</h2>
       <p class="lead">Generando un mejor posicionamiento en el mercado que tu competencia, te ayudamos a conseguir mejores y más ventas</p>
     </div>
-    <img class="image-money" src="~/assets/images/SVG/money.svg" alt="mindgrowth sube tus ventas">
+    <img class="image-money" src="~/assets/images/svg/money.svg" alt="mindgrowth sube tus ventas">
     <br>
     <br>
   </div>
@@ -22,7 +22,7 @@
       <h2 class="display-5">Consolida tu lugar en el mercado</h2>
       <p class="lead">Definimos objetivos y metas a corto y largo plazo que te ayudarán a lograr lo que tu competencia no ha podido</p>
     </div>
-    <img class="image-money" src="~/assets/images/SVG/success.svg" alt="mindgrowth sube tus ventas">
+    <img class="image-money" src="~/assets/images/svg/success.svg" alt="mindgrowth sube tus ventas">
     
   </div>
 </div>

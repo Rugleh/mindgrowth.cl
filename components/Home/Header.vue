@@ -27,7 +27,7 @@ export default {
 <style>
 
 .background-header{
-    background-image: url("~assets/images/SVG/dataAsset 1.svg");
+    background-image: url("~assets/images/svg/background-header.svg");
      /* Location of the image */
   
   /* Background image is centered vertically and horizontally at all times */
