@@ -42,8 +42,9 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+ plugins: [
+  '~/plugins/vue-lazysizes.client.js'
+],
 
   /*
   ** Nuxt.js modules
@@ -53,7 +54,26 @@ export default {
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
     'bootstrap-vue/nuxt',
+    '@bazzite/nuxt-optimized-images',
   ],
+  optimizedImages: {
+    inlineImageLimit: -1,
+    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
+    optimizeImages: true,
+    optimizeImagesInDev: false,
+    defaultImageLoader: 'img-loader',
+    mozjpeg: {
+      quality: 85
+    },
+    optipng: false,
+    pngquant: {
+      speed: 7,
+      quality: [0.65, 0.8]
+    },
+    webp: {
+      quality: 85
+    }
+  },
   markdownit: {
     injected: true,
     preset: 'default',
@@ -72,13 +92,14 @@ export default {
   /*
   ** Build configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    },
-  },
+ build: {
+  extend (config, { isDev, isClient, loaders: { vue } }) {
+    if (isClient) {
+      vue.transformAssetUrls.img = ['data-src', 'src']
+      vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+    }
+  }
+},
   generate: {
     routes: dynamicRoutes
   }

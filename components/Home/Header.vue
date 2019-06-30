@@ -1,7 +1,7 @@
 <template>
 
 <section class="main-header">
-<div class="main-header background-header position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
+<div class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
     <div class="row">
 
     <div class="col-md-2"></div>
@@ -29,7 +29,7 @@ export default {
 .background-header{
     background-image: url("~assets/images/svg/background-header.svg");
      /* Location of the image */
-  
+
   /* Background image is centered vertically and horizontally at all times */
   background-position: center right;
   
