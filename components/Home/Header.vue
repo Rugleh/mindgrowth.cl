@@ -29,7 +29,7 @@ export default {
 .background-header{
     background-image: url("~assets/images/svg/background-header.svg");
      /* Location of the image */
-
+  
   /* Background image is centered vertically and horizontally at all times */
   background-position: center right;
   
