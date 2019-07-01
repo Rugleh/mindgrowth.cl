@@ -6,10 +6,12 @@
 
       <div class="col-md-3"></div>
       
-      <div class="col-md-4 p-lg-4 my-5">
+      <div class="col-md-4 p-lg-4 my-3">
       <h1 class="display-4 ">Mind<b>Growth</b></h1>
-      <p class="lead font-weight-normal">Somos la Consultora que te ayudará a crecer como empresa. Mediante el Metodo Mind<b>Growth</b> somos capaces de llevar a tu negocio o PYME donde no pensaste que podría llegar</p>
-      <p class="lead font-weight-normal">¡Cambia tu visión, destaca en el mercado!</p>
+      <p class="lead ">Más que una consultora, somos un socio estratégico para las PYMEs, buscamos destacar tus fortalezas y combatir tus
+         debilidades.
+         <br>En Mind<b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él.</p>
+      <p class="lead">Solicite un diagnóstico de forma <b>gratuita</b> </p>
       
 
       <!-- <form name="Home" method="POST" data-netlify="true">
@@ -36,15 +38,15 @@
       <form name="contact" method="POST" data-netlify="true">
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
+               <label class="w-100"><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="email" name="email" placeholder="Correo" /></label>
+               <label class="w-100"><input class="form-control " type="email" name="email" placeholder="Correo" /></label>
             </div>
          </div>
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="text" name="telefono" placeholder="Teléfono"/></label>
+               <label class="w-100"><input class="form-control " type="text" name="telefono" placeholder="Teléfono"/></label>
             </div>
             <div class="div-form col-md-4 col-sm-12">
                <button class="btn btn-outline-primary w-100" type="submit">Enviar</button>
@@ -98,13 +100,30 @@ export default {
   background-color: #464646;
 }
 
-
-
-
 .main-header{
     height: 600px;
 }
 
+/*phone */
+@media (max-width: 575.98px) { 
+   .main-header{
+      height: 100%;
+   }
 
+   .background-header{
+      background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.616)), url("~assets/images/svg/vectors.svg");
+
+      background-position: center;
+      
+      background-repeat: no-repeat;
+      
+      background-attachment:inherit;
+      
+      background-size: 100%;
+      
+      background-color: #464646;
+   }
+
+}
 
 </style>

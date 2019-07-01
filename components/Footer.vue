@@ -9,13 +9,13 @@
       <h5> <nuxt-link to="/">Inicio</nuxt-link></h5>
     </div>
     <div class="col-6 col-md">
-      <h5> <nuxt-link to="/">Blog</nuxt-link></h5>
+      <h5> <nuxt-link to="/blog">Blog</nuxt-link></h5>
     </div>
     <div class="col-6 col-md">
-      <h5> <nuxt-link to="/">¿Quienes somos?</nuxt-link></h5>
+      <h5> <nuxt-link to="/nosotros">¿Quienes somos?</nuxt-link></h5>
     </div>
     <div class="col-6 col-md">
-      <h5> <nuxt-link to="/">Contacto</nuxt-link></h5>
+      <h5> <nuxt-link to="/contacto">Contacto</nuxt-link></h5>
       
     </div>
   </div>

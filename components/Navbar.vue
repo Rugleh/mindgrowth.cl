@@ -1,12 +1,12 @@
 <template>
    <nav class="site-header sticky-top py-1">
   <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <nuxt-link class="py-2" to="/">
+    <nuxt-link to="/" class="py-2">
       Mind<b>Growth</b>
     </nuxt-link>
-    <nuxt-link class="py-2 d-none d-md-inline-block" to="/Blog">Blog</nuxt-link>
-    <nuxt-link class="py-2 d-none d-md-inline-block" to="/Nosotros">¿Quienes somos?</nuxt-link>
-    <nuxt-link class="py-2 d-none d-md-inline-block" to="/Contacto">Contacto</nuxt-link>
+    <nuxt-link class="py-2 d-none d-md-inline-block" to="/blog">Blog</nuxt-link>
+    <nuxt-link class="py-2 d-none d-md-inline-block" to="/nosotros">¿Quienes somos?</nuxt-link>
+    <nuxt-link class="py-2 d-none d-md-inline-block" to="/contacto">Contacto</nuxt-link>
   </div>
 </nav>
 </template>
