@@ -12,20 +12,20 @@
       <p class="lead font-weight-normal">¡Cambia tu visión, destaca en el mercado!</p>
       
 
-      <form name="inicio" netlify>
+      <form name="Home" method="POST" data-netlify="true">
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
-               <input type="text" class="form-control" placeholder="Nombre">
+               <input type="text" class="form-control" name="name" placeholder="Nombre">
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <input type="text" class="form-control" required placeholder="Correo">
+               <input type="email" class="form-control" name="email" required placeholder="Correo">
             </div>
             
          </div>
       
          <div class="form-row ">
             <div class="div-form col-md-4 col-sm-12">
-               <input type="text" class="form-control" placeholder="Teléfono">
+               <input type="text" class="form-control" name="phone" placeholder="Teléfono">
             </div>
             <div class="div-form col-md-4 col-sm-12">
                <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
