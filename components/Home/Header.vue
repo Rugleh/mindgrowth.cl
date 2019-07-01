@@ -4,7 +4,7 @@
 <div class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
     <div class="row">
 
-      <div class="col-md-2"></div>
+      <div class="col-md-3"></div>
       
       <div class="col-md-4 p-lg-4 my-5">
       <h1 class="display-4 ">Mind<b>Growth</b></h1>
@@ -18,7 +18,7 @@
                <input type="text" class="form-control" placeholder="Nombre">
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <input type="text" class="form-control" placeholder="Correo">
+               <input type="text" class="form-control" required placeholder="Correo">
             </div>
             
          </div>
@@ -28,7 +28,7 @@
                <input type="text" class="form-control" placeholder="Teléfono">
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <a class="btn btn-outline-primary w-100" href="#">¡Conversemos!</a>
+               <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
             </div>
          </div>
       </form>
@@ -54,11 +54,12 @@ export default {
 }
 
 .background-header{
-    background-image: url("~assets/images/svg/background-header.svg");
+    background-image: url("~assets/images/svg/background-header.svg"), url("~assets/images/svg/vectors.svg");
+
      /* Location of the image */
   
   /* Background image is centered vertically and horizontally at all times */
-  background-position: center right;
+  background-position: center right, center left;
   
   /* Background image doesn't tile */
   background-repeat: no-repeat;
@@ -69,9 +70,9 @@ export default {
   
   /* This is what makes the background image rescale based
      on the container's size */
-  background-size: 30%;
+  background-size: 30%, 16%;
 
-  background-position-x: 90%;
+  background-position-x: 96%, 0%;
   
   /* Set a background color that will be displayed
      while the background image is loading */
@@ -79,8 +80,12 @@ export default {
 }
 
 
+
+
 .main-header{
     height: 600px;
 }
+
+
 
 </style>
