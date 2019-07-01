@@ -12,7 +12,7 @@
       <p class="lead font-weight-normal">¡Cambia tu visión, destaca en el mercado!</p>
       
 
-      <!-- <form name="Home" method="POST" data-netlify="true">
+    <form name="Home" method="POST" data-netlify="true">
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
                <input type="text" class="form-control" name="name" placeholder="Nombre">
@@ -28,31 +28,10 @@
                <input type="text" class="form-control" name="phone" placeholder="Teléfono">
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
+               <button class="btn btn-outline-primary w-100" type="submit">¡Conversemos!</button>
             </div>
          </div>
-      </form> -->
-
-      <form name="contact" method="POST" data-netlify="true">
-         <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
-         </p>
-         <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-         </p>
-         <p>
-            <label>Your Role: <select name="role[]" multiple>
-               <option value="leader">Leader</option>
-               <option value="follower">Follower</option>
-            </select></label>
-         </p>
-         <p>
-            <label>Message: <textarea name="message"></textarea></label>
-         </p>
-         <p>
-            <button type="submit">Send</button>
-         </p>
-         </form>
+      </form>
 
    </div>
   </div>
