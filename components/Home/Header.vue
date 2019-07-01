@@ -39,7 +39,7 @@
                <label><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="text" name="correo" placeholder="Correo" required/></label>
+               <label><input class="form-control" type="email" name="email" placeholder="Correo" /></label>
             </div>
          </div>
          <div class="form-row">
