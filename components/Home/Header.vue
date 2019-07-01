@@ -4,13 +4,36 @@
 <div class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
     <div class="row">
 
-    <div class="col-md-2"></div>
-    
-  <div class="col-md-4 p-lg-4 my-5">
-    <h1 class="display-4 ">Mind<b>Growth</b></h1>
-    <p class="lead font-weight-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia id, tempora eius nemo sunt temporibus minus laborum placeat, tenetur fugiat magni voluptates repellendus ipsam. Iusto laborum a eligendi? Voluptas, quis!</p>
-    <a class="btn btn-outline-secondary" href="#">Contactanos ahora</a>
-  </div>
+      <div class="col-md-2"></div>
+      
+      <div class="col-md-4 p-lg-4 my-5">
+      <h1 class="display-4 ">Mind<b>Growth</b></h1>
+      <p class="lead font-weight-normal">Somos la Consultora que te ayudará a crecer como empresa. Mediante el Metodo Mind<b>Growth</b> somos capaces de llevar a tu negocio o PYME donde no pensaste que podría llegar</p>
+      <p class="lead font-weight-normal">¡Cambia tu visión, destaca en el mercado!</p>
+      
+
+      <form name="inicio" netlify>
+         <div class="form-row">
+            <div class="div-form col-md-4 col-sm-12">
+               <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="div-form col-md-4 col-sm-12">
+               <input type="text" class="form-control" placeholder="Correo">
+            </div>
+            
+         </div>
+      
+         <div class="form-row ">
+            <div class="div-form col-md-4 col-sm-12">
+               <input type="text" class="form-control" placeholder="Teléfono">
+            </div>
+            <div class="div-form col-md-4 col-sm-12">
+               <a class="btn btn-outline-primary w-100" href="#">¡Conversemos!</a>
+            </div>
+         </div>
+      </form>
+
+   </div>
   </div>
 </div>
 </section>
@@ -25,6 +48,10 @@ export default {
 </script>
 
 <style>
+
+.div-form{
+   padding-bottom: 15px;
+}
 
 .background-header{
     background-image: url("~assets/images/svg/background-header.svg");
