@@ -36,15 +36,15 @@
       <form name="contact" method="POST" data-netlify="true">
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="text" name="name" placeholder="Su nombre"/></label>   
+               <label><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="email" name="email" placeholder="Correo" required/></label>
+               <label><input class="form-control" type="email" name="correo" placeholder="Correo" required/></label>
             </div>
          </div>
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
-               <label><input class="form-control" type="text" name="phone" placeholder="Teléfono"/></label>
+               <label><input class="form-control" type="text" name="telefono" placeholder="Teléfono"/></label>
             </div>
             <div class="div-form col-md-4 col-sm-12">
                <button class="btn btn-outline-primary w-100" type="submit">Enviar</button>
