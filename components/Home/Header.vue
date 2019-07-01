@@ -12,7 +12,7 @@
       <p class="lead font-weight-normal">¡Cambia tu visión, destaca en el mercado!</p>
       
 
-    <form name="Home" method="POST" data-netlify="true">
+      <!-- <form name="Home" method="POST" data-netlify="true">
          <div class="form-row">
             <div class="div-form col-md-4 col-sm-12">
                <input type="text" class="form-control" name="name" placeholder="Nombre">
@@ -28,9 +28,21 @@
                <input type="text" class="form-control" name="phone" placeholder="Teléfono">
             </div>
             <div class="div-form col-md-4 col-sm-12">
-               <button class="btn btn-outline-primary w-100" type="submit">¡Conversemos!</button>
+               <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
             </div>
          </div>
+      </form> -->
+
+      <form name="contact" method="POST" data-netlify="true">
+         <p>
+            <label><input type="text" name="name" placeholder="Su nombre"/></label>   
+         </p>
+         <p>
+            <label><input type="email" name="email" placeholder="Correo" /></label>
+         </p>
+         <p>
+            <button class="btn btn-outline-primary w-100" type="submit">Enviar</button>
+         </p>
       </form>
 
    </div>
