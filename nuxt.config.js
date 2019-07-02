@@ -50,6 +50,9 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-137846449-2'
+    }],
     '@nuxtjs/markdownit',
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
