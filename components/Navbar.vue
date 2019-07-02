@@ -4,9 +4,9 @@
     <nuxt-link to="/" class="py-2">
       Mind<b>Growth</b>
     </nuxt-link>
-    <nuxt-link class="py-2 d-none d-md-inline-block" to="/blog">Blog</nuxt-link>
-    <nuxt-link class="py-2 d-none d-md-inline-block" to="/nosotros">¿Quienes somos?</nuxt-link>
-    <nuxt-link class="py-2 d-none d-md-inline-block" to="/contacto">Contacto</nuxt-link>
+    <nuxt-link to="/blog" class="py-2 d-none d-md-inline-block">Blog</nuxt-link>
+    <nuxt-link to="/nosotros" class="py-2 d-none d-md-inline-block">¿Quienes somos?</nuxt-link>
+    <nuxt-link to="/contacto" class="py-2 d-none d-md-inline-block">Contacto</nuxt-link>
   </div>
 </nav>
 </template>

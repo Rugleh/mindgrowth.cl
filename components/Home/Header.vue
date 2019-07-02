@@ -1,62 +1,62 @@
 <template>
 
 <section class="main-header">
-<div class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
-    <div class="row">
+   <div class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 back-color-strong">
+      <div class="row">
 
-      <div class="col-md-3"></div>
-      
-      <div class="col-md-4 p-lg-4 my-3">
-      <h1 class="display-4 ">Mind<b>Growth</b></h1>
-      <p class="lead ">Más que una consultora, somos un socio estratégico para las PYMEs, buscamos destacar tus fortalezas y combatir tus
-         debilidades.
-         <br>En Mind<b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él.</p>
-      <p class="lead">Solicite un diagnóstico de forma <b>gratuita</b> </p>
-      
+         <div class="col-md-3"></div>
+         
+         <div class="col-md-4 p-lg-4 my-3">
+         <h1 class="display-4 ">Mind<b>Growth</b></h1>
+         <p class="lead ">Más que una consultora, somos un socio estratégico para las PYMEs, buscamos destacar tus fortalezas y combatir tus
+            debilidades.
+            <br>En Mind<b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él.</p>
+         <p class="lead">Solicite un diagnóstico de forma <b>gratuita</b> </p>
+         
 
-      <!-- <form name="Home" method="POST" data-netlify="true">
-         <div class="form-row">
-            <div class="div-form col-md-4 col-sm-12">
-               <input type="text" class="form-control" name="name" placeholder="Nombre">
+         <!-- <form name="Home" method="POST" data-netlify="true">
+            <div class="form-row">
+               <div class="div-form col-md-4 col-sm-12">
+                  <input type="text" class="form-control" name="name" placeholder="Nombre">
+               </div>
+               <div class="div-form col-md-4 col-sm-12">
+                  <input type="email" class="form-control" name="email" required placeholder="Correo">
+               </div>
+               
             </div>
-            <div class="div-form col-md-4 col-sm-12">
-               <input type="email" class="form-control" name="email" required placeholder="Correo">
+         
+            <div class="form-row ">
+               <div class="div-form col-md-4 col-sm-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Teléfono">
+               </div>
+               <div class="div-form col-md-4 col-sm-12">
+                  <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
+               </div>
             </div>
-            
-         </div>
-      
-         <div class="form-row ">
-            <div class="div-form col-md-4 col-sm-12">
-               <input type="text" class="form-control" name="phone" placeholder="Teléfono">
-            </div>
-            <div class="div-form col-md-4 col-sm-12">
-               <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
-            </div>
-         </div>
-      </form> -->
+         </form> -->
 
-      <form name="contact" method="POST" data-netlify="true">
-         <div class="form-row">
-            <div class="div-form col-md-4 col-sm-12">
-               <label class="w-100"><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
+         <form name="contact" method="POST" data-netlify="true">
+            <div class="form-row">
+               <div class="div-form col-md-4 col-sm-12">
+                  <label class="w-100"><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
+               </div>
+               <div class="div-form col-md-4 col-sm-12">
+                  <label class="w-100"><input class="form-control " type="email" name="email" placeholder="Correo" /></label>
+               </div>
             </div>
-            <div class="div-form col-md-4 col-sm-12">
-               <label class="w-100"><input class="form-control " type="email" name="email" placeholder="Correo" /></label>
+            <div class="form-row">
+               <div class="div-form col-md-4 col-sm-12">
+                  <label class="w-100"><input class="form-control " type="text" name="telefono" placeholder="Teléfono"/></label>
+               </div>
+               <div class="div-form col-md-4 col-sm-12">
+                  <button class="btn btn-outline-primary w-100" type="submit">Enviar</button>
+               </div>
             </div>
-         </div>
-         <div class="form-row">
-            <div class="div-form col-md-4 col-sm-12">
-               <label class="w-100"><input class="form-control " type="text" name="telefono" placeholder="Teléfono"/></label>
-            </div>
-            <div class="div-form col-md-4 col-sm-12">
-               <button class="btn btn-outline-primary w-100" type="submit">Enviar</button>
-            </div>
-         </div>
-      </form>
+         </form>
 
+      </div>
+      </div>
    </div>
-  </div>
-</div>
 </section>
     
     
@@ -75,12 +75,12 @@ export default {
 }
 
 .background-header{
-    background-image: url("~assets/images/svg/background-header.svg"), url("~assets/images/svg/vectors.svg");
+   
+   background-image: url("~assets/images/svg/background-header.svg"), url("~assets/images/svg/vectors.svg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
 
-     /* Location of the image */
   
   /* Background image is centered vertically and horizontally at all times */
-  background-position: center right, center left;
+  background-position: center right, center left, center;
   
   /* Background image doesn't tile */
   background-repeat: no-repeat;
@@ -91,9 +91,9 @@ export default {
   
   /* This is what makes the background image rescale based
      on the container's size */
-  background-size: 30%, 16%;
+  background-size: 30%, 16%, 100%;
 
-  background-position-x: 96%, 0%;
+  background-position-x: 96%, 0%, 0%;
   
   /* Set a background color that will be displayed
      while the background image is loading */
@@ -111,7 +111,7 @@ export default {
    }
 
    .background-header{
-      background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.616)), url("~assets/images/svg/vectors.svg");
+      background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.616)), url("~assets/images/svg/vectors.svg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );;
 
       background-position: center;
       
