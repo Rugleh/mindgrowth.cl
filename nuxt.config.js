@@ -21,15 +21,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: "google-site-verification", content: "UIhTxrHKG6Y8NctXXlACvtYtmtskgjUyqGG7q85ewIw"},
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ],
-    meta: [
-      name="google-site-verification",
-      content="UIhTxrHKG6Y8NctXXlACvtYtmtskgjUyqGG7q85ewIw"
-    ] 
+    ]
   },
 
   /*
