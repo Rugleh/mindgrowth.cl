@@ -7,6 +7,10 @@
     <nuxt-link to="/blog" class="py-2 d-none d-md-inline-block">Blog</nuxt-link>
     <nuxt-link to="/nosotros" class="py-2 d-none d-md-inline-block">¿Quienes somos?</nuxt-link>
     <nuxt-link to="/contacto" class="py-2 d-none d-md-inline-block">Contacto</nuxt-link>
+    <a class="py-1 d-none d-md-inline-block" href="https://www.facebook.com/mindgrowthcl">1</a>
+    <a class="py-1 d-none d-md-inline-block" href="https://www.linkedin.com/company/mindgrowth">2</a>
+    <a class="py-1 d-none d-md-inline-block" href="https://www.twitter.com/mindgrowthcl">3</a>
+    <a class="py-1 d-none d-md-inline-block" href="https://www.instagram.com/mindgrowthcl">4</a>
   </div>
 </nav>
 </template>

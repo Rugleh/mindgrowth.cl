@@ -25,7 +25,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ]
+    ],
+    meta: [
+      name="google-site-verification",
+      content="UIhTxrHKG6Y8NctXXlACvtYtmtskgjUyqGG7q85ewIw"
+    ] 
   },
 
   /*
