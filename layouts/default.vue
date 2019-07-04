@@ -7,7 +7,7 @@
 
     <Navbar />
     <nuxt class="content" />
-    <Footer />
+    
   </div>
 </template>
 

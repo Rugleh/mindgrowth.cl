@@ -29,10 +29,6 @@ export default {
     ],
     script: [
       { src: 'https://kit.fontawesome.com/1f72a0d59a.js'},
-      {
-        src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
-        type: "text/javascript"
-      },
     ]
   },
 
