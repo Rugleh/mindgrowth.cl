@@ -1,18 +1,30 @@
 <template>
-   <nav class="site-header sticky-top py-1">
-  <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <nuxt-link to="/" class="py-2">
-      Mind<b>Growth</b>
-    </nuxt-link>
-    <nuxt-link to="/blog" class="py-2 d-none d-md-inline-block">Blog</nuxt-link>
-    <nuxt-link to="/nosotros" class="py-2 d-none d-md-inline-block">¿Quienes somos?</nuxt-link>
-    <nuxt-link to="/contacto" class="py-2 d-none d-md-inline-block">Contacto</nuxt-link>
-    <a class="py-1 d-none d-md-inline-block" href="https://www.facebook.com/mindgrowthcl">1</a>
-    <a class="py-1 d-none d-md-inline-block" href="https://www.linkedin.com/company/mindgrowth">2</a>
-    <a class="py-1 d-none d-md-inline-block" href="https://www.twitter.com/mindgrowthcl">3</a>
-    <a class="py-1 d-none d-md-inline-block" href="https://www.instagram.com/mindgrowthcl">4</a>
-  </div>
-</nav>
+  
+<div >
+  <b-navbar class="site-header col-md-8 offset-md-2" sticky toggleable="lg">
+    <b-navbar-brand to="/" exact>Mind<b>Growth</b></b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item to="/blog" exact >Blog</b-nav-item>
+        <b-nav-item to="/nosotros" exact disabled>¿Quienes somos?</b-nav-item>
+        <b-nav-item to="/contacto" exact disabled>Contacto</b-nav-item>
+      </b-navbar-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+
+        <b-nav-item href="https://www.facebook.com/mindgrowthcl" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></b-nav-item>
+        <b-nav-item href="https://www.linkedin.com/company/mindgrowth" target="_blank"><i class="fab fa-linkedin fa-2x"></i></b-nav-item>
+        <b-nav-item href="https://www.twitter.com/mindgrowthcl" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></b-nav-item>
+        <b-nav-item href="https://www.instagram.com/mindgrowthcl" target="_blank"><i class="fab fa-instagram fa-2x"></i></b-nav-item>
+
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
 </template>
 
 <script>
@@ -26,6 +38,9 @@ name: 'Navbar'
 /*
  * Custom translucent site header
  */
+.black{
+  color: black;
+}
 
 .site-header {
   background-color: rgba(255, 255, 255, 0.85);

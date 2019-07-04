@@ -19,7 +19,8 @@
     "bootstrap-vue": "^2.0.0-rc.24",
     "cross-env": "^5.2.0",
     "lazysizes": "^5.1.0",
-    "nuxt": "^2.6.3"
+    "nuxt": "^2.6.3",
+    "nuxt-material-design-icons": "^1.0.4"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",

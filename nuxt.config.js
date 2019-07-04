@@ -26,6 +26,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    script: [
+      { src: 'https://kit.fontawesome.com/1f72a0d59a.js'},
+      {
+        src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+        type: "text/javascript"
+      },
     ]
   },
 
@@ -54,6 +61,7 @@ export default {
     ['@nuxtjs/google-analytics', {
       id: 'UA-137846449-2'
     }],
+    'nuxt-material-design-icons',
     '@nuxtjs/markdownit',
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',

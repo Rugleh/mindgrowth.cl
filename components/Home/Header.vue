@@ -12,28 +12,6 @@
             debilidades.
             <br>En Mind<b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él.</p>
          <p class="lead">Solicite un diagnóstico de forma <b>gratuita</b> </p>
-         
-
-         <!-- <form name="Home" method="POST" data-netlify="true">
-            <div class="form-row">
-               <div class="div-form col-md-4 col-sm-12">
-                  <input type="text" class="form-control" name="name" placeholder="Nombre">
-               </div>
-               <div class="div-form col-md-4 col-sm-12">
-                  <input type="email" class="form-control" name="email" required placeholder="Correo">
-               </div>
-               
-            </div>
-         
-            <div class="form-row ">
-               <div class="div-form col-md-4 col-sm-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Teléfono">
-               </div>
-               <div class="div-form col-md-4 col-sm-12">
-                  <button class="btn btn-outline-primary w-100" type="submit" href="#">¡Conversemos!</button>
-               </div>
-            </div>
-         </form> -->
 
          <form name="contact" method="POST" data-netlify="true">
             <div class="form-row">
