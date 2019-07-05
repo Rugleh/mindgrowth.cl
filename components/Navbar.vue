@@ -8,9 +8,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item to="/blog" exact >Blog</b-nav-item>
-        <b-nav-item to="/nosotros" exact >¿Quienes somos?</b-nav-item>
-        <b-nav-item to="/contacto" exact disabled>Contacto</b-nav-item>
+        <b-nav-item to="blog" exact >Blog</b-nav-item>
+        <b-nav-item to="nosotros" exact >¿Quienes somos?</b-nav-item>
+        <b-nav-item to="contacto" exact disabled>Contacto</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
