@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-netlifycms-boilerplate",
+  "name": "mindgrowth.cl",
   "version": "0.1.0",
-  "description": "A simple boilerplate for using NetlifyCMS with Nuxt",
-  "author": "Tyler Mercer",
+  "description": "Consultoria, socio estrategico de mejoramiento continuo de PYMEs",
+  "author": "Diego Rubilar",
   "private": true,
   "scripts": {
     "dev": "nuxt",
