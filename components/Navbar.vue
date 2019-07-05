@@ -16,10 +16,10 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
 
-        <b-nav-item href="https://www.facebook.com/mindgrowthcl" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></b-nav-item>
-        <b-nav-item href="https://www.linkedin.com/company/mindgrowth" target="_blank"><i class="fab fa-linkedin fa-2x"></i></b-nav-item>
-        <b-nav-item href="https://www.twitter.com/mindgrowthcl" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></b-nav-item>
-        <b-nav-item href="https://www.instagram.com/mindgrowthcl" target="_blank"><i class="fab fa-instagram fa-2x"></i></b-nav-item>
+        <b-nav-item href="https://www.facebook.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-square']" size="2x"/></b-nav-item>
+        <b-nav-item href="https://www.linkedin.com/company/mindgrowth" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" size="2x"/></b-nav-item>
+        <b-nav-item href="https://www.twitter.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'twitter-square']" size="2x"/></b-nav-item>
+        <b-nav-item href="https://www.instagram.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" size="2x"/></b-nav-item>
 
       </b-navbar-nav>
     </b-collapse>
@@ -40,6 +40,10 @@ name: 'Navbar'
  */
 .black{
   color: black;
+}
+
+.grayscale{
+  fill: lightgray;
 }
 
 .site-header {

@@ -12,6 +12,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/markdownit": "^1.2.4",
@@ -19,8 +22,11 @@
     "bootstrap-vue": "^2.0.0-rc.24",
     "cross-env": "^5.2.0",
     "lazysizes": "^5.1.0",
+    "lint": "^0.7.0",
     "nuxt": "^2.6.3",
-    "nuxt-material-design-icons": "^1.0.4"
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-material-design-icons": "^1.0.4",
+    "prettier": "^1.18.2"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",

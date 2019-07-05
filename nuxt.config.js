@@ -26,9 +26,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ],
-    script: [
-      { src: 'https://kit.fontawesome.com/1f72a0d59a.js'},
     ]
   },
 
@@ -54,6 +51,16 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+      [
+      'nuxt-fontawesome', {
+        imports: [
+         {
+           set:'@fortawesome/free-brands-svg-icons',
+           icons: ['fab']
+         }
+       ]
+      }
+    ],
     ['@nuxtjs/google-analytics', {
       id: 'UA-137846449-2'
     }],
