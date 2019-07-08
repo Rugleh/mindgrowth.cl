@@ -8,8 +8,8 @@
                     <h2 class="display-2 text-center blue">¡Conversemos!</h2>
                     <br>
                     <p>Prestamos asistencia en los campos de planificación estratégica e ingeniería de procesos con el fin de ayudarlos con el cumplimiento de sus objetivos, buscando, además, aportar en el desarrollo de su curva de aprendizaje a modo de profesionalizar su negocio.</p>
-                    <p><font-awesome-icon :icon="['fas', 'phone']"/> +569 67779168</p>
-                    <p><font-awesome-icon :icon="['fas', 'envelope']"/> mindgrowthcl@gmail.com</p>
+                    <!-- <p><font-awesome-icon :icon="['fas', 'phone']"/> +569 67779168</p>
+                    <p><font-awesome-icon :icon="['fas', 'envelope']"/> mindgrowthcl@gmail.com</p> -->
 
                 </div>
                 <div class="col-md-6 col-xs-12">

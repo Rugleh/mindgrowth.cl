@@ -35,6 +35,8 @@ export default {
   */
   loading: { color: '#4859A8' },
 
+  
+
   /*
   ** Global CSS
   */
@@ -54,21 +56,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    
-      [
-      'nuxt-fontawesome', {
-        imports: [
-          {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
-          },
-         {
-           set:'@fortawesome/free-brands-svg-icons',
-           icons: ['fab']
-         }
-       ]
-      }
-    ],
     ['@nuxtjs/google-analytics', {
       id: 'UA-137846449-2'
     }],
@@ -97,6 +84,23 @@ export default {
   ** Build configuration
   */
  build: {
+  // analyze: true,
+  collapseBooleanAttributes: true,
+  decodeEntities: true,
+  minifyCSS: true,
+  minifyJS: true,
+  processConditionalComments: true,
+  removeEmptyAttributes: true,
+  removeRedundantAttributes: true,
+  trimCustomFragments: true,
+  useShortDoctype: true,
+  minimize: true,
+  splitChunks: {
+    chunks: 'all',
+    automaticNameDelimiter: '.',
+    name: undefined,
+    cacheGroups: {}
+  },
   plugins: [
     new webpack.ProvidePlugin({
       $: "jquery",
@@ -104,6 +108,7 @@ export default {
       "window.jQuery": "jquery"
     })
   ],
+  
 },
   generate: {
     routes: dynamicRoutes

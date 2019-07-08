@@ -2,36 +2,36 @@ importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/088fbf3cd85e06bd6171.js",
-    "revision": "abd958b1c121f84d7190219517cb511d"
+    "url": "/_nuxt/app.js",
+    "revision": "8ccd02644c1be1cf27569a3d72bd6070"
   },
   {
-    "url": "/_nuxt/12246042b5bd08cda065.js",
-    "revision": "6686b1ec6e9224b08deecfa5300d25ca"
+    "url": "/_nuxt/commons.app.js",
+    "revision": "cb369f05ebd7fc1dd5fa72a57af1aff6"
   },
   {
-    "url": "/_nuxt/206d460835c946c5c1bc.js",
-    "revision": "6021b26f02e5a26d03a8fe734bdbc895"
+    "url": "/_nuxt/pages_blog__slug.js",
+    "revision": "f84e879a7421f5ed8660bbf9003f6881"
   },
   {
-    "url": "/_nuxt/3fc68019a0bd52ec3143.js",
-    "revision": "20a929ae136cba375c21370f3dbdb506"
+    "url": "/_nuxt/pages_blog_index.js",
+    "revision": "6a734ab07ad342aecbecf97677cc7c5d"
   },
   {
-    "url": "/_nuxt/4e5c494de1cfefd88d12.js",
-    "revision": "de427cdfa806a4d0bf57fde9d0e61eec"
+    "url": "/_nuxt/pages_index.js",
+    "revision": "44e84282eb22d63acfe4f53eeec75acc"
   },
   {
-    "url": "/_nuxt/5853a9dc36511a2ef4ad.js",
-    "revision": "865f8f483730ab80aa8e11c48b94ffa0"
+    "url": "/_nuxt/pages_nosotros.js",
+    "revision": "0fdb58a65f6c7b66aa4a09ec4bfea703"
   },
   {
-    "url": "/_nuxt/c7be706d9ee954866bd8.js",
-    "revision": "73dd178d998ac73b5e7bdbe08a12ff49"
+    "url": "/_nuxt/runtime.js",
+    "revision": "9a270d197d91f65439af4792685b3673"
   },
   {
-    "url": "/_nuxt/d0c13a05b282c51ee702.js",
-    "revision": "2e182bb4a663de947886f91e7138b6de"
+    "url": "/_nuxt/vendors.app.js",
+    "revision": "2f56cc4b73f427e0bdbe0cc1b2e7f1ca"
   }
 ], {
   "cacheId": "mindgrowth.cl",
