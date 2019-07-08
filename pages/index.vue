@@ -20,7 +20,7 @@ export default {
     Timeline,
     Form
   }
-};
+}
 </script>
 
 <style>
