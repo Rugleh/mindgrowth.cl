@@ -95,6 +95,9 @@ export default {
     },
     webp: {
       quality: 85
+    },
+    svgo: {
+      quality: 70
     }
   },
   markdownit: {
