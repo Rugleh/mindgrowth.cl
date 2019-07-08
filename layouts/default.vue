@@ -7,6 +7,8 @@
 
     <Navbar />
     <nuxt class="content" />
+  <hr>
+    <Footer/>
     
   </div>
 </template>

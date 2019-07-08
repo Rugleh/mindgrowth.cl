@@ -2,21 +2,26 @@
 <div>
   <Header/>
   <Features />
-  <Metodo />
+  <Timeline />
+  <Form />
 </div>
 </template>
 
 <script>
 import Header from '~/components/Home/Header.vue'
 import Features from '~/components/Home/Features.vue'
-import Metodo from '~/components/Home/Metodo.vue'
+import Timeline from '~/components/Home/Timeline.vue'
+import Form from '~/components/Form.vue'
+
+
 
 
 export default {
   components: {
     Header,
     Features,
-    Metodo
+    Timeline,
+    Form
   }
 }
 </script>

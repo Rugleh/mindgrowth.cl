@@ -1,16 +1,20 @@
 <template>
   
 <div >
-  <b-navbar class="site-header col-md-8 offset-md-2" sticky toggleable="lg">
-    <b-navbar-brand to="/" exact>Mind<b>Growth</b></b-navbar-brand>
+  <b-navbar class="site-header col-md-12 fixed-top" toggleable="lg">
+
+    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+<b-navbar-brand class="orange" to="/" exact> <img class="logo lazyload" src="~/assets/images/svg/rocket.svg" alt="mindgrowth">  Mind<b class="blue">Growth</b></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
+        <b-nav-item to="blog" exact >Servicios</b-nav-item>
         <b-nav-item to="blog" exact >Blog</b-nav-item>
         <b-nav-item to="nosotros" exact >¿Quienes somos?</b-nav-item>
-        <b-nav-item to="contacto" exact disabled>Contacto</b-nav-item>
+        <b-nav-item href="#form" exact>Contacto</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
@@ -23,6 +27,10 @@
 
       </b-navbar-nav>
     </b-collapse>
+
+    </div>
+    
+    
   </b-navbar>
 </div>
 </template>
@@ -40,6 +48,10 @@ name: 'Navbar'
  */
 .black{
   color: black;
+}
+
+.logo{
+  height: 40px;
 }
 
 .grayscale{

@@ -15,7 +15,7 @@
       <h5> <nuxt-link to="/nosotros">¿Quienes somos?</nuxt-link></h5>
     </div>
     <div class="col-6 col-md">
-      <h5> <nuxt-link to="/contacto">Contacto</nuxt-link></h5>
+      <h5> <a href="#form">Contacto</a></h5>
       
     </div>
   </div>

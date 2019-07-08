@@ -4,34 +4,15 @@
    <div class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 back-color-strong">
       <div class="row">
 
-         <div class="col-md-3"></div>
+         <div class="col-md-1"></div>
          
-         <div class="col-md-4 p-lg-4 my-3">
-         <h1 class="display-4 ">Mind<b>Growth</b></h1>
-         <p class="lead ">Más que una consultora, somos un socio estratégico para las PYMEs, buscamos destacar tus fortalezas y combatir tus
-            debilidades.
-            <br>En Mind<b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él.</p>
+         <div class="col-md-5 p-lg-5 my-3">
+         <h1 class="display-4 first-title blue">¡Potenciemos tu negocio!</h1>
+         <p class="lead ">
+            <br>En Mind<b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él. Somos el aliado estrategico que estabas buscando</p>
          <p class="lead">Solicite un diagnóstico de forma <b>gratuita</b> </p>
-
-         <form name="contact" method="POST" data-netlify="true">
-            <div class="form-row">
-               <div class="div-form col-md-4 col-sm-12">
-                  <label class="w-100"><input class="form-control" type="text" name="nombre" placeholder="Su nombre"/></label>   
-               </div>
-               <div class="div-form col-md-4 col-sm-12">
-                  <label class="w-100"><input class="form-control " type="email" name="email" placeholder="Correo" /></label>
-               </div>
-            </div>
-            <div class="form-row">
-               <div class="div-form col-md-4 col-sm-12">
-                  <label class="w-100"><input class="form-control " type="text" name="telefono" placeholder="Teléfono"/></label>
-               </div>
-               <div class="div-form col-md-4 col-sm-12">
-                  <button class="btn btn-outline-primary w-100" type="submit">Enviar</button>
-               </div>
-            </div>
-         </form>
-
+         <br>  
+         <a class="btn btn-outline-primary diagnostico shadow" href="#form">¡Quiero mi diagnostico!</a>
       </div>
       </div>
    </div>
@@ -47,6 +28,21 @@ export default {
 </script>
 
 <style>
+.first-title{
+   padding-top: 40px;
+}
+
+.diagnostico{
+   border-radius: 40px;
+}
+
+.blue{
+   color: #4859A8 !important;
+}
+
+.orange{
+   color: #F3782C !important;
+}
 
 .div-form{
    padding-bottom: 15px;
@@ -54,29 +50,24 @@ export default {
 
 .background-header{
    
-   background-image: url("~assets/images/svg/background-header.svg"), url("~assets/images/svg/vectors.svg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
-
-  
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center right, center left, center;
-  
-  /* Background image doesn't tile */
+ /* background-image: url("~assets/images/svg/background-header.svg"), url("~assets/images/svg/header-orange.svg"), url("~assets/images/svg/header-orange-top.svg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+  background-position: center right, center left, center right, center;
   background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
   background-attachment:inherit;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: 30%, 16%, 100%;
+  background-size: 30%, 50%, 50%, 100%;
+  background-position-x: 96%, -10%, 105%, 0%;
+  background-position-y: 50%, 100%, 0%, 0%;
+  background-color: #464646; */
 
-  background-position-x: 96%, 0%, 0%;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-}
+  background-image: url("~assets/images/svg/header-rocket.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size: inherit;
+  background-position-x: 120%;
+
+  background-color: white;
+} 
 
 .main-header{
     height: 600px;
@@ -85,23 +76,19 @@ export default {
 /*phone */
 @media (max-width: 575.98px) { 
    .main-header{
-      height: 100%;
+      height: 600px;
    }
 
-   .background-header{
-      background-image: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.616)), url("~assets/images/svg/vectors.svg"), radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );;
-
-      background-position: center;
-      
-      background-repeat: no-repeat;
-      
-      background-attachment:inherit;
-      
-      background-size: 100%;
-      
-      background-color: #464646;
+.background-header{
+   background-image: url("~assets/images/svg/header-rocket-bottom.svg");
+   background-position: center right;
+   background-repeat: no-repeat;
+   background-attachment:scroll;
+   background-size: inherit;
+   background-position-x: 120%; 
+   background-position-y: 100%; 
+   background-color: white;
    }
-
 }
 
 </style>
