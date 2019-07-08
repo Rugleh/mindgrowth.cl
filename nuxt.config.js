@@ -33,7 +33,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#F3782C' },
+  loading: { color: '#4859A8' },
 
   /*
   ** Global CSS
@@ -46,7 +46,6 @@ export default {
   ** Plugins to load before mounting the App
   */
  plugins: [
-  '~/plugins/vue-lazysizes.client.js',
   "@/plugins/bootstrap",
 ],
 
@@ -73,33 +72,12 @@ export default {
     ['@nuxtjs/google-analytics', {
       id: 'UA-137846449-2'
     }],
-    'nuxt-material-design-icons',
+ 
     '@nuxtjs/markdownit',
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/pwa',
-    '@bazzite/nuxt-optimized-images',
+    '@nuxtjs/pwa'
   ],
-  optimizedImages: {
-    inlineImageLimit: -1,
-    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
-    optimizeImages: true,
-    optimizeImagesInDev: false,
-    defaultImageLoader: 'img-loader',
-    mozjpeg: {
-      quality: 85
-    },
-    optipng: false,
-    pngquant: {
-      speed: 7,
-      quality: [0.65, 0.8]
-    },
-    webp: {
-      quality: 85
-    },
-    svgo: {
-      quality: 70
-    }
-  },
+  
   markdownit: {
     injected: true,
     preset: 'default',
@@ -126,12 +104,6 @@ export default {
       "window.jQuery": "jquery"
     })
   ],
-  extend (config, { isDev, isClient, loaders: { vue } }) {
-    if (isClient) {
-      vue.transformAssetUrls.img = ['data-src', 'src']
-      vue.transformAssetUrls.source = ['data-srcset', 'srcset']
-    }
-  }
 },
   generate: {
     routes: dynamicRoutes
