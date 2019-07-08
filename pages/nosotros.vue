@@ -1,5 +1,5 @@
 <template>
-    <div><p>test 4 omg</p></div>
+    <div><p> En Construcción</p></div>
 </template>
 
 <script>

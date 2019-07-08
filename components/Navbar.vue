@@ -34,39 +34,36 @@
   </b-navbar>
 </div> -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-new">
+  <div class="mx-auto d-sm-flex ">
+  <a class="navbar-brand" href="/"><img class="logo lazyload" src="~/assets/images/svg/rocket.svg" alt="mindgrowth"></a>
+  <button class="navbar-toggler btn btn-default" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon blue"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+     
+      <li class="nav-item">
+        <nuxt-link class="nav-link" to="/nosotros" >¿Quiénes somos?</nuxt-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="/#form" >Contacto</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <form class="ml-auto">
+      <a class="rrss-icon" href="https://www.facebook.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>
+      <a class="rrss-icon" href="https://www.linkedin.com/company/mindgrowth" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
+      <a class="rrss-icon" href="https://www.twitter.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
+      <a class="rrss-icon" href="https://www.instagram.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
     </form>
+  </div>
   </div>
 </nav>
 </template>
@@ -80,6 +77,25 @@ name: 'Navbar',
 
 <style>
 
+.strong{
+  font-weight: bold
+}
+
+.navbar-new{
+  background-color: rgba(255, 255, 255, .8) !important;
+}
+
+.rrss-icon{
+  font-size: 1.5em;
+  color: gray
+}
+
+.navbar-btn{
+  min-width: 100px;
+  background-color: transparent;
+  border-radius: 50px;
+  margin-right: 20px;
+}
 /*
  * Custom translucent site header
  */
