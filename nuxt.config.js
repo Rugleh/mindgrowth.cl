@@ -9,6 +9,7 @@ var dynamicRoutes = getDynamicPaths({
 });
 
 console.log(dynamicRoutes);
+const webpack = require("webpack");
 
 export default {
   mode: 'universal',
@@ -32,26 +33,29 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#F3782C' },
 
   /*
   ** Global CSS
   */
   css: [
+    { src: "~/node_modules/bootstrap/dist/css/bootstrap.css" }
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
  plugins: [
-  '~/plugins/vue-lazysizes.client.js'
+  '~/plugins/vue-lazysizes.client.js',
+  "@/plugins/bootstrap",
 ],
+
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    'bootstrap-vue/nuxt',
+    
       [
       'nuxt-fontawesome', {
         imports: [
@@ -112,6 +116,13 @@ export default {
   ** Build configuration
   */
  build: {
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
+    })
+  ],
   extend (config, { isDev, isClient, loaders: { vue } }) {
     if (isClient) {
       vue.transformAssetUrls.img = ['data-src', 'src']
