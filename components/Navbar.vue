@@ -58,10 +58,10 @@
       </li>
     </ul>
     <form class="ml-auto">
-      <a class="rrss-icon" href="https://www.facebook.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>
-      <a class="rrss-icon" href="https://www.linkedin.com/company/mindgrowth" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
-      <a class="rrss-icon" href="https://www.twitter.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
-      <a class="rrss-icon" href="https://www.instagram.com/mindgrowthcl" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+      <a class="rrss-icon" href="https://www.facebook.com/mindgrowthcl" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>
+      <a class="rrss-icon" href="https://www.linkedin.com/company/mindgrowth" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
+      <a class="rrss-icon" href="https://www.twitter.com/mindgrowthcl" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
+      <a class="rrss-icon" href="https://www.instagram.com/mindgrowthcl" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
     </form>
   </div>
   </div>
