@@ -51,6 +51,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'bootstrap-vue/nuxt',
       [
       'nuxt-fontawesome', {
         imports: [
@@ -72,7 +73,6 @@ export default {
     '@nuxtjs/markdownit',
     '@nuxtjs/axios', // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/pwa',
-    'bootstrap-vue/nuxt',
     '@bazzite/nuxt-optimized-images',
   ],
   optimizedImages: {
