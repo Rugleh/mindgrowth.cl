@@ -8,13 +8,10 @@
 </template>
 
 <script>
-import Header from '~/components/Home/Header.vue'
-import Features from '~/components/Home/Features.vue'
-import Timeline from '~/components/Home/Timeline.vue'
-import Form from '~/components/Form.vue'
-
-
-
+import Header from "~/components/Home/Header.vue";
+import Features from "~/components/Home/Features.vue";
+import Timeline from "~/components/Home/Timeline.vue";
+import Form from "~/components/Form.vue";
 
 export default {
   components: {
@@ -23,9 +20,8 @@ export default {
     Timeline,
     Form
   }
-}
+};
 </script>
 
 <style>
-
 </style>
