@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-new">
     <div class="mx-auto d-sm-flex">
       <a class="navbar-brand" href="/">
-        <img class="logo lazyload" src="~/assets/images/svg/rocket.svg" alt="mindgrowth" />
+        <img class="logo" src="~/assets/images/svg/rocket.svg" alt="mindgrowth" />
       </a>
       <button
         class="navbar-toggler btn btn-default"
@@ -36,10 +36,10 @@
           </li>
         </ul>
         <form class="ml-auto">
-          <!-- <a class="rrss-icon" href="https://www.facebook.com/mindgrowthcl" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>
-      <a class="rrss-icon" href="https://www.linkedin.com/company/mindgrowth" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
-      <a class="rrss-icon" href="https://www.twitter.com/mindgrowthcl" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
-          <a class="rrss-icon" href="https://www.instagram.com/mindgrowthcl" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'instagram']" /></a>-->
+          <a href="https://www.facebook.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/facebook.svg" alt="facebook mindgrowthcl" /></a>
+          <a href="https://www.linkedin.com/company/mindgrowth" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/linkedin.svg" alt="linkedin mindgrowth" /></a>
+          <a href="https://www.twitter.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/twitter.svg" alt="twitter mindgrowthcl" /></a>
+          <a href="https://www.instagram.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/instagram.svg" alt="instagram mindgrowthcl" /></a>
         </form>
       </div>
     </div>
@@ -53,17 +53,18 @@ export default {
 </script>
 
 <style>
+
+.logo-rrss{
+  height: 35px;
+}
+
+
 .strong {
   font-weight: bold;
 }
 
 .navbar-new {
   background-color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.rrss-icon {
-  font-size: 1.5em;
-  color: gray;
 }
 
 /*
