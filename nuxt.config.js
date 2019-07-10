@@ -26,7 +26,15 @@ export default {
         name: "google-site-verification",
         content: "UIhTxrHKG6Y8NctXXlACvtYtmtskgjUyqGG7q85ewIw"
       },
-      { hid: "description", name: "description", content: pkg.description }
+      {
+        name: "yandex-verification",
+        content: "04957623fc915d74"
+      },
+      { 
+        hid: "description", 
+        name: "description", 
+        content: pkg.description 
+      }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="post">
+  <div id="post" class="post container col-md-8 img-fluid overflow-hidden img-center">
     <h1 class="title">{{title}}</h1>
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
@@ -45,5 +45,10 @@ export default {
 .post {
   background-color: whitesmoke;
   padding: 20px;
+  margin-top: 100px;
+}
+
+p > img{
+  width: 20px;
 }
 </style>
