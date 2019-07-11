@@ -2,11 +2,10 @@
   <section class="metodo">
     <br />
     <h2 class="text-center py-3 display-4 font-white">
-      ¿Conoces el Método Mind
-      <b>Growth</b>?
+      ¿Conoces el Método Mind<b>Growth</b>?
     </h2>
 
-    <div class="container py-2 mt-4 mb-4">
+    <div class="container py-2 mt-4 mb-4 text-center">
       <!-- timeline item 1 -->
       <div class="row no-gutters">
         <div class="col-sm">
@@ -30,11 +29,12 @@
         <div class="col-sm py-2">
           <div class="card bg-transparent border-white shadow">
             <div class="card-body">
-              <h4 class="card-title font-white">Análisis del modelo de negocio</h4>
-              <p class="card-text font-white">
-                Nuestros
-                consultores te brindarán apoyo para documentar dicho modelo y destacar de la mejor
-                manera la propuesta de valor que presenta tu organización.
+              <h4 class="card-title font-white">Desarrollo  de modelo de negocios</h4>
+              <p class="card-text font-white ">
+                Mediante el uso de
+                la metodología Canvas, nuestros consultores te ayudarán a documentar
+                dicho modelo y destacar de la mejor manera, la propuesta de valor que
+                presenta tu organización.
               </p>
             </div>
           </div>
@@ -46,11 +46,9 @@
         <div class="col-sm py-2">
           <div class="card bg-transparent border-white shadow font-white">
             <div class="card-body">
-              <h4 class="card-title">Planificación Formal</h4>
+              <h4 class="card-title">Planificación formal</h4>
               <p class="card-text">
-                en el cual se llevarán a cabo
-                diversas tareas de análisis que permitirán determinar los principales temas de interés
-                estratégico para tu PYME.
+                Define tu visión de empresa, analiza tu entorno, plantea objetivos y determina estrategias. 
               </p>
             </div>
           </div>
@@ -94,11 +92,9 @@
         <div class="col-sm py-2">
           <div class="card bg-transparent border-white shadow font-white">
             <div class="card-body">
-              <h4 class="card-title">Definición de Estrategias</h4>
+              <h4 class="card-title">Indicadores y planes de acción</h4>
               <p>
-                La finalidad de esta etapa del
-                método, es determinar la o las actividades que debes realizar en el corto plazo para lograr
-                objetivos a mediano y largo plazo.
+                Te ayudamos a seleccionar indicadores claves de desempeño y determinar las actividades que te permitirán cumplir tus metas.
               </p>
             </div>
           </div>
@@ -110,11 +106,9 @@
         <div class="col-sm py-2">
           <div class="card bg-transparent border-white shadow font-white">
             <div class="card-body">
-              <h4 class="card-title">Indicadores y manos a la obra</h4>
+              <h4 class="card-title">¡Manos a la obra!</h4>
               <p>
-                Finalmente, se trabaja de forma conjunta para definir indicadores clave de desempeño que
-                permitirán llevar a cabo una medición del nivel de cumplimiento de los objetivos dispuestos
-                en el plan.
+                ¡Felicitaciones! ya cuentas con tu plan estatégico, ahora solo falta implementarlo para que comiences a ver resultados.
               </p>
             </div>
           </div>
@@ -127,16 +121,16 @@
           <h5 class="m-2">
             <span class="badge badge-pill bg-primary shadow">&nbsp;</span>
           </h5>
-          <div class="row h-50">
-            <div class="col">&nbsp;</div>
-            <div class="col">&nbsp;</div>
-          </div>
+          
         </div>
         <div class="col-sm">
           <!--spacer-->
         </div>
       </div>
       <!--/row-->
+      <!-- timeline item 5 -->
+  
+      
     </div>
 
     <hr />

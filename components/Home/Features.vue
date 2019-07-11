@@ -3,10 +3,11 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-4 px-md-4 text-center overflow-hidden features">
         <div class="my-3 py-3">
-          <h2 class="display-2 blue">Crecimiento de tu negocio</h2>
+          <h2 class="display-2 blue">Desarrolla tu negocio</h2>
           <p
             class="lead"
-          >Te acompañamos, orientamos y planificamos el proceso de crecimiento de tu neogocio o PYME</p>
+          >Te ayudamos a desarrollar el plan estratégico que mejor se adapte a tus
+necesidades y expectativas de crecimiento.</p>
         </div>
         <img
           class="image-growth img-fluid"
@@ -19,7 +20,8 @@
           <h2 class="display-2 blue">Aumenta tus ventas</h2>
           <p
             class="lead"
-          >Generando un mejor posicionamiento en el mercado que tu competencia, te ayudamos a conseguir mejores y más ventas</p>
+          >Te orientamos para que puedas alinear tus actividades con el cumplimiento de
+objetivos y así logres conseguir más y mejores ventas!</p>
         </div>
         <img
           class="image-money img-fluid"
@@ -34,7 +36,8 @@
           <h2 class="display-2 blue">Consolida tu lugar</h2>
           <p
             class="lead"
-          >Definimos objetivos y metas a corto y largo plazo que te ayudarán a lograr lo que tu competencia no ha podido</p>
+          >Desarrolla ventajas competitivas que te permitan lograr un mejor posicionamiento en
+el mercado. Transfórmate en la opción número 1 para los clientes.</p>
         </div>
         <img
           class="image-success img-fluid"

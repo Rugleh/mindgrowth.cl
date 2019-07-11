@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-new">
-    <div class="mx-auto d-sm-flex">
+    <div class="col-md-8 offset-md-2 d-sm-flex">
       <a class="navbar-brand" href="/">
         <img class="logo" src="~/assets/images/svg/rocket.svg" alt="mindgrowth" />
       </a>
@@ -24,9 +24,9 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
-          </li>
+          </li> -->
 
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/nosotros">¿Quiénes somos?</nuxt-link>

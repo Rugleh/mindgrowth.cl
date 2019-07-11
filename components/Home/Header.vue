@@ -1,25 +1,38 @@
 <template>
   <section class="main-header">
     <div
-      class="main-header lazyload background-header position-relative overflow-hidden p-3 p-md-5 back-color-strong"
+      class="main-header background-header overflow-hidden p-3 p-md-5"
     >
-      <div class="row">
-        <div class="col-md-1"></div>
+      
 
-        <div class="col-md-5 p-lg-5 my-3">
-          <h1 class="display-4 first-title blue">¡Potenciemos tu negocio!</h1>
-          <p class="lead">
-            <br />En Mind
-            <b>Growth</b>, queremos ayudarte a llevar tu negocio a la mejor versión de él. Somos el aliado estrategico que estabas buscando
-          </p>
-          <p class="lead">
-            Solicite un diagnóstico de forma
-            <b>gratuita</b>
-          </p>
-          <br />
-          <a class="btn btn-outline-primary diagnostico shadow" href="#form">¡Quiero mi diagnostico!</a>
+        <div class="col-md-12 p-lg-12 text-center my-3">
+          <h1 class="display-4 first-title font-white">¡Potencia tu negocio!</h1>
         </div>
-      </div>
+
+        <div>
+          <p class="lead font-white col-md-6 offset-md-3 text-center">
+            <br />Más que una consultora, Mind<b>Growth</b> representa un aliado estratégico para tu
+organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel.
+          </p>
+        </div>
+          
+        <div>
+        <p class="lead font-white col-md-6 offset-md-3 text-center">
+          Solicita tu diagnóstico de forma
+          <b>gratuita</b>
+        </p>
+        <br />
+       
+
+        </div>
+        <div class="col-md-6 offset-md-3 text-center">
+        <a class="btn btn-outline diagnostico-white shadow" href="#form">¡Quiero mi diagnostico!</a>
+        </div>
+        
+
+    
+
+      
     </div>
   </section>
 </template>
@@ -39,6 +52,17 @@ export default {
   border-radius: 40px;
 }
 
+.diagnostico-white{
+  border: 1px solid white;
+  color: white;
+  border-radius: 40px;
+}
+
+.diagnostico-white:hover{
+  border: 1px solid rgb(255, 123, 0);
+  color: white;
+}
+
 .blue {
   color: #4859a8 !important;
 }
@@ -52,12 +76,17 @@ export default {
 }
 
 .background-header {
-  background-image: url("~assets/images/svg/header-rocket.svg");
-  background-position: center right;
+  background-image: url("~assets/images/svg/top-right.svg"), url("~assets/images/svg/bottom-left-2.svg"), linear-gradient(
+    to bottom,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(72, 89, 168, 1) 100%
+  );
+  background-position: center right, center left, center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: inherit;
-  background-position-x: 120%;
+  background-attachment:inherit;
+  background-size: 30%, 30%, 100%;
+  background-position-x: 110%, -8%, 0%;
+  background-position-y: -20%, 140%, 0%;
 
   background-color: white;
 }
@@ -72,15 +101,6 @@ export default {
     height: 600px;
   }
 
-  .background-header {
-    background-image: url("~assets/images/svg/header-rocket-bottom.svg");
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: inherit;
-    background-position-x: 120%;
-    background-position-y: 100%;
-    background-color: white;
-  }
+ 
 }
 </style>

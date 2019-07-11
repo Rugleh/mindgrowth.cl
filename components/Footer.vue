@@ -13,11 +13,11 @@
           <nuxt-link to="/">Inicio</nuxt-link>
         </h5>
       </div>
-      <div class="col-6 col-md">
+      <!-- <div class="col-6 col-md">
         <h5>
           <nuxt-link to="/blog">Blog</nuxt-link>
         </h5>
-      </div>
+      </div> -->
       <div class="col-6 col-md">
         <h5>
           <nuxt-link to="/nosotros">¿Quienes somos?</nuxt-link>
