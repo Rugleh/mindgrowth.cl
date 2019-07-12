@@ -64,11 +64,23 @@ export default {
         id: "UA-137846449-2"
       }
     ],
-
     "@nuxtjs/markdownit",
     "@nuxtjs/axios", // Doc: https://axios.nuxtjs.org/usage
-    "@nuxtjs/pwa"
+    "@nuxtjs/pwa",
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    hostname: 'https://www.mindgrowth.cl',
+    generate: true,
+    exclude: [
+      '/admin/**'
+    ],
+    routes: [
+      '/',
+      '/nosotros'
+    ]
+  },
 
   markdownit: {
     injected: true,

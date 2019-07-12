@@ -133,8 +133,6 @@
       
     </div>
 
-    <hr />
-
     <!--container-->
   </section>
 </template>
@@ -183,6 +181,8 @@ export default {
     rgba(73, 155, 234, 1) 0%,
     rgba(72, 89, 168, 1) 100%
   );
+
+  padding-bottom: 100px;
 }
 
 .font-white {
@@ -192,4 +192,6 @@ export default {
 .bg-orange {
   background-color: #f3782c;
 }
+
+
 </style>
