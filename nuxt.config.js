@@ -72,7 +72,7 @@ export default {
 
   sitemap: {
     hostname: 'https://www.mindgrowth.cl',
-    generate: true,
+    //generate: true,
     exclude: [
       '/admin/**'
     ],
