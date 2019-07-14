@@ -27,7 +27,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-      { hid: 'description', name: 'description', content: 'Más que una consultora, MindGrowth representa un aliado estratégico para tu organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel.' }
+      { name: 'description', content: 'Más que una consultora, MindGrowth representa un aliado estratégico para tu organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel.' }
     ]
   }
 }

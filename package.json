@@ -1,7 +1,6 @@
 {
   "name": "mindgrowth.cl",
   "version": "0.1.0",
-  "description": "Consultoria, socio estrategico de mejoramiento continuo de PYMEs",
   "author": "Diego Rubilar",
   "private": true,
   "scripts": {

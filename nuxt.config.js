@@ -29,11 +29,6 @@ export default {
       {
         name: "yandex-verification",
         content: "04957623fc915d74"
-      },
-      { 
-        hid: "description", 
-        name: "description", 
-        content: pkg.description 
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
