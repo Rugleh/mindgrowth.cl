@@ -25,9 +25,23 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-      { name: 'description', content: 'Más que una consultora, MindGrowth representa un aliado estratégico para tu organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel.' }
+      { name: 'description', content: 'Más que una consultora, MindGrowth representa un aliado estratégico para tu organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel.' },
+
+      //facebook
+      { property:"og:type", content:"website" },
+      { property:"og:url", content:"https://www.mindgrowth.cl/" },
+      { property:"og:title", content="MindGrowth - Planificación Estratégica"},
+      { property:"og:description", content="Más que una consultora, MindGrowth representa un aliado estratégico para tu organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel."},
+      { property="og:image", content="~/assets/images/3x/card.jpg"},
+
+      //twitter
+      { property:"twitter:card", content="summary_large_image"},
+      { property:"twitter:url", content="https://www.mindgrowth.cl/"},
+      { property:"twitter:title", content="MindGrowth - Planificación Estratégica"},
+      { property:"twitter:description", content="Más que una consultora, MindGrowth representa un aliado estratégico para tu organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente nivel."},
+      { property:"twitter:image", content="~/assets/images/3x/card.jpg"}
+    
     ]
   }
 }
