@@ -19,10 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">
-              Inicio
-              <span class="sr-only">(current)</span>
-            </a>
+            <nuxt-link class="nav-link" to="/">Inicio</nuxt-link>
           </li>
           <!-- <li class="nav-item">
             <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>

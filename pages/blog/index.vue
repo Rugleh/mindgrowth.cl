@@ -12,6 +12,7 @@
 import Header from '~/components/Blog/Header.vue'
 
 export default {
+  transition: "page",
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts;

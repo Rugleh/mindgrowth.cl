@@ -14,6 +14,7 @@ import Timeline from "~/components/Home/Timeline.vue";
 import Form from "~/components/Form.vue";
 
 export default {
+  transition: "page",
   components: {
     Header,
     Features,

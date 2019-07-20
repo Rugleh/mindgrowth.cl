@@ -42,7 +42,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: [{ src: "~/node_modules/bootstrap/dist/css/bootstrap.css" }],
+  css: [
+    { src: "~/node_modules/bootstrap/dist/css/bootstrap.css" },
+    { src: '~/assets/main.css'},
+  ],
+
 
   /*
    ** Plugins to load before mounting the App
@@ -53,6 +57,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    
     [
       "@nuxtjs/google-analytics",
       {
