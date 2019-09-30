@@ -14,7 +14,7 @@
         <li><nuxt-link class="text-muted" to="/">Inicio</nuxt-link></li>
         <li><nuxt-link class="text-muted" to="/">Contacto</nuxt-link></li>
         <li><nuxt-link class="text-muted" to="/nosotros">¿Quienes Somos?</nuxt-link></li>
-        <li><nuxt-link class="text-muted" to="/diagnostico">Diagnóstico <span href="#" class="badge badge-success">Gratis</span></nuxt-link></li>
+        <li><a class="text-muted" href="https://mindgrowth.typeform.com/to/oq0rOo" target="_blank">Diagnóstico <span href="#" class="badge badge-success">Gratis</span></a></li>
 
       </ul>
       </div>
