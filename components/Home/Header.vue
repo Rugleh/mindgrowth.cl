@@ -26,7 +26,8 @@ organización. Te ayudamos a planificar tu negocio para llevarlo al siguiente ni
 
         </div>
         <div class="col-md-6 offset-md-3 text-center">
-        <a class="btn btn-outline diagnostico-white shadow" href="#form">¡Quiero mi diagnostico!</a>
+        <!-- <a class="btn btn-outline diagnostico-white shadow" href="#form">¡Quiero mi diagnostico!</a> -->
+        <a class="btn btn-outline diagnostico-white shadow" href="https://mindgrowth.typeform.com/to/oq0rOo" data-mode="popup" style="display:inline-block;text-decoration:none;color:white;cursor:pointer;font-size:18px;line-height:45px;text-align:center;margin:0;height:45px;padding:0px 30px;border-radius:22px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="0" target="_blank">¡Quiero mi diagnostico!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         </div>
         
 

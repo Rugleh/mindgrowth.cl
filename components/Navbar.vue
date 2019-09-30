@@ -29,7 +29,10 @@
             <nuxt-link class="nav-link" to="/nosotros">¿Quiénes somos?</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/#form">Contacto</a>
+             <nuxt-link class="nav-link" to="/">Contacto</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link class="nav-link" to="/diagnostico">Diagnóstico <span href="#" class="badge badge-success">Gratis</span></nuxt-link>
           </li>
         </ul>
         <form class="ml-auto">

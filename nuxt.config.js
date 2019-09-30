@@ -78,7 +78,8 @@ export default {
     ],
     routes: [
       '/',
-      '/nosotros'
+      '/nosotros',
+      '/diagnostico'
     ]
   },
 
