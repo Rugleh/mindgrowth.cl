@@ -4,6 +4,9 @@
     <nuxt class="content" />
     <hr />
     <Footer />
+    <!--Start of Tawk.to Script-->
+
+<!--End of Tawk.to Script-->
   </div>
 </template>
 
