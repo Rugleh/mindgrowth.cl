@@ -11,7 +11,7 @@ necesidades y expectativas de crecimiento.</p>
         </div>
         <img
           class="image-growth img-fluid"
-          src="~/assets/images/svg/growth-orange.svg"
+          src="~/assets/images/undraw/money.svg"
           alt="mindgrowth sube tus ventas"
         />
       </div>
@@ -25,7 +25,7 @@ objetivos y así logres conseguir más y mejores ventas!</p>
         </div>
         <img
           class="image-money img-fluid"
-          src="~/assets/images/svg/money-orange.svg"
+          src="~/assets/images/undraw/sales4.svg"
           alt="mindgrowth sube tus ventas"
         />
         <br />
@@ -41,7 +41,7 @@ el mercado. Transfórmate en la opción número 1 para los clientes.</p>
         </div>
         <img
           class="image-success img-fluid"
-          src="~/assets/images/svg/success-orange.svg"
+          src="~/assets/images/undraw/winner.svg"
           alt="mindgrowth sube tus ventas"
         />
       </div>

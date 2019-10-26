@@ -3,6 +3,7 @@
   <Header/>
   <Features />
   <Timeline />
+  <Services />
   <Form />
 </div>
 </template>
@@ -12,6 +13,8 @@ import Header from "~/components/Home/Header.vue";
 import Features from "~/components/Home/Features.vue";
 import Timeline from "~/components/Home/Timeline.vue";
 import Form from "~/components/Form.vue";
+import Services from "~/components/Home/Services.vue";
+
 
 export default {
   transition: "page",
@@ -19,7 +22,8 @@ export default {
     Header,
     Features,
     Timeline,
-    Form
+    Form,
+    Services
   },
   head: {
     titleTemplate: 'MindGrowth - Planificación Estratégica',

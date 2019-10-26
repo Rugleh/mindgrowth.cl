@@ -1,13 +1,13 @@
 <template>
-  <section id="form">
+  <section class="metodo" id="form">
     <br />
     <br />
     <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3 col-xs-12">
-          <h2 class="display-2 text-center blue">¡Conversemos!</h2>
+          <h2 class="display-2 text-center text-white">¡Conversemos!</h2>
           <br />
-          <p class="text-center">Si tienes alguna duda, quieres agendar tu diagnostico o simplimente quieres dejarnos un comentario, llena el formulario y contacta de forma directa con nuestros consultores</p>
+          <p class="text-center text-white">Si tienes alguna duda, quieres agendar tu diagnóstico o simplimente quieres dejarnos un comentario, llena el formulario y contacta de forma directa con nuestros consultores</p>
           <!-- <p><font-awesome-icon :icon="['fas', 'phone']"/> +569 67779168</p>
           <p><font-awesome-icon :icon="['fas', 'envelope']"/> mindgrowthcl@gmail.com</p>-->
           <br>
@@ -64,7 +64,7 @@
             <div class="text-center col-md-6 offset-md-3">
             <button
               type="submit"
-              class="btn btn-outline-primary diagnostico form-btn shadow"
+              class="btn btn-outline diagnostico-white shadow"
             >¡Enviar!</button>
             </div>
 
