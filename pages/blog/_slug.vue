@@ -33,6 +33,11 @@ export default {
 .back, .date, .body {
   padding-top: 10px;
 }
+
+h2{
+  font-size: 90px !important;
+}
+
 .back-link {
   text-decoration: underline;
   color: #3b8070;
@@ -42,13 +47,11 @@ export default {
 .date {
   color: darkgray;
 }
+
 .post {
   background-color: whitesmoke;
   padding: 20px;
   margin-top: 100px;
 }
 
-p > img{
-  width: 20px;
-}
 </style>

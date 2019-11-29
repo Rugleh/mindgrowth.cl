@@ -34,6 +34,9 @@
           <li class="nav-item">
             <a class="nav-link" href="https://mindgrowth.typeform.com/to/oq0rOo" target="_blank">Diagnóstico <span href="#" class="badge badge-success">Gratis</span></a>
           </li>
+          <li class="nav-item">
+            <a class="text-muted" href="https://blog.mindgrowth.cl" target="_blank">Blog</a>
+            </li>
         </ul>
         <form class="ml-auto">
           <a href="https://www.facebook.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/facebook.svg" alt="facebook mindgrowthcl" /></a>
