@@ -18,7 +18,7 @@
           <form name="contact" method="POST" data-netlify="true">
             <div class="form-row">
               <div class="form-group col-md-4 col-xs-12">
-                <label for="inputName">Nombre</label>
+                <label class="font-white" for="inputName">Nombre</label>
                 <input
                   type="text"
                   class="form-control border-primary"
@@ -28,7 +28,7 @@
                 />
               </div>
               <div class="form-group col-md-4 col-xs-12">
-                <label for="inputEmail4">Correo</label>
+                <label class="font-white" for="inputEmail4">Correo</label>
                 <input
                   type="email"
                   class="form-control border-primary"
@@ -38,7 +38,7 @@
                 />
               </div>
               <div class="form-group col-md-4 col-xs-12">
-                <label  for="inputPhone">Telefono</label>
+                <label  class="font-white" for="inputPhone">Telefono</label>
                 <input
                   type="text"
                   class="form-control border-primary"
@@ -50,7 +50,7 @@
             </div>
             <div class="form-row">
               <div class="form-group col-md-12 col-xs-12">
-                <label  for="exampleFormControlTextarea1">Comentario, cuéntanos sobre tu problemática</label>
+                <label class="font-white"  for="exampleFormControlTextarea1">Comentario, cuéntanos sobre tu problemática</label>
                 <textarea
                   class="form-control border-primary"
                   name="comentario"
