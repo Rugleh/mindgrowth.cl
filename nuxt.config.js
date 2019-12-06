@@ -29,7 +29,7 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/png", href: "/favicon512.png" },
-      { rel: "manifest", href:"/manifest.json"},
+     // { rel: "manifest", href:"/manifest.json"},
       { rel: "apple-touch-icon", href:"/favicon192.png"},
   
   ]
@@ -90,6 +90,29 @@ export default {
     breaks: true,
     html: true
   },
+
+  pwa: {
+    manifest: {
+      name: 'MindGrowth PWA',
+      short_name: 'MindGrowth',
+      lang: 'es',
+      display: 'standalone',
+      start_url: "/",
+      icons: [
+        {
+          src: "favicon192.png",
+          type: "image/png",
+          sizes: "192x192"
+        },
+        {
+          src: "favicon512.png",
+          type: "image/png",
+          sizes: "512x512"
+        }
+      ],
+    },
+  },
+
   /*
    ** Axios module configuration
    */
