@@ -26,14 +26,12 @@ export default {
         name: "google-site-verification",
         content: "UIhTxrHKG6Y8NctXXlACvtYtmtskgjUyqGG7q85ewIw"
       },
-      {
-        name: "yandex-verification",
-        content: "04957623fc915d74"
-      }
     ],
     link: [
       { rel: "icon", type: "image/png", href: "/favicon512.png" },
-      { rel: "manifest", href:"/manifest.json"}
+      { rel: "manifest", href:"/manifest.json"},
+      { rel: "apple-touch-icon", href:"/favicon192.png"},
+  
   ]
   },
 
