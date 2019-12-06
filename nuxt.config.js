@@ -32,8 +32,8 @@ export default {
       }
     ],
     link: [
-      { rel: "icon", type: "image/png", href: "favicon192.png", sizes: "192x192"},
-      { rel: "icon", type: "image/png", href: "favicon512.png", sizes: "512x512"}
+      { rel: "icon", type: "image/png", href: "/favicon512.png" },
+      { rel: "manifest", href:"/manifest.json"}
   ]
   },
 
