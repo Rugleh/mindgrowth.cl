@@ -31,7 +31,10 @@ export default {
         content: "04957623fc915d74"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }]
+    link: [
+      { rel: "icon", type: "image/png", href: "favicon192.png", sizes: "192x192"},
+      { rel: "icon", type: "image/png", href: "favicon512.png", sizes: "512x512"}
+  ]
   },
 
   /*
