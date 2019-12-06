@@ -32,7 +32,7 @@
              <nuxt-link class="nav-link" to="/">Contacto</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mindgrowth.typeform.com/to/oq0rOo" target="_blank">Diagnóstico <span href="#" class="badge badge-dark">Gratis</span></a>
+            <a class="nav-link" href="https://mindgrowth.typeform.com/to/oq0rOo">Diagnóstico <span href="#" class="badge badge-dark">Gratis</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://blog.mindgrowth.cl">Blog</a>
