@@ -18,45 +18,45 @@
           <form name="contact" method="POST" data-netlify="true">
             <div class="form-row">
               <div class="form-group col-md-4 col-xs-12">
-                <label hidden for="inputName">Nombre</label>
+                <label for="inputName">Nombre</label>
                 <input
                   type="text"
                   class="form-control border-primary"
                   name="nombre"
                   id="inputName"
-                  placeholder="Nombre"
+                  
                 />
               </div>
               <div class="form-group col-md-4 col-xs-12">
-                <label hidden for="inputEmail4">Correo</label>
+                <label for="inputEmail4">Correo</label>
                 <input
                   type="email"
                   class="form-control border-primary"
                   name="correo"
                   id="inputEmail4"
-                  placeholder="Correo"
+                 
                 />
               </div>
               <div class="form-group col-md-4 col-xs-12">
-                <label hidden for="inputPhone">Telefono</label>
+                <label  for="inputPhone">Telefono</label>
                 <input
                   type="text"
                   class="form-control border-primary"
                   name="telefono"
                   id="inputPhone"
-                  placeholder="Teléfono"
+                  
                 />
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-12 col-xs-12">
-                <label hidden for="exampleFormControlTextarea1">Comentario, cuéntanos sobre tu problemática</label>
+                <label  for="exampleFormControlTextarea1">Comentario, cuéntanos sobre tu problemática</label>
                 <textarea
                   class="form-control border-primary"
                   name="comentario"
                   id="exampleFormControlTextarea1"
                   rows="3"
-                  placeholder="Comentario, cuentenos de su problemática"
+                  
                 ></textarea>
               </div>
             </div>

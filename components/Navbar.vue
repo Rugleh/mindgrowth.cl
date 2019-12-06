@@ -32,17 +32,17 @@
              <nuxt-link class="nav-link" to="/">Contacto</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mindgrowth.typeform.com/to/oq0rOo" target="_blank">Diagnóstico <span href="#" class="badge badge-success">Gratis</span></a>
+            <a class="nav-link" href="https://mindgrowth.typeform.com/to/oq0rOo" target="_blank">Diagnóstico <span href="#" class="badge badge-dark">Gratis</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://blog.mindgrowth.cl" target="_blank">Blog</a>
+            <a class="nav-link" href="https://blog.mindgrowth.cl">Blog</a>
           </li>
         </ul>
         <form class="ml-auto">
-          <a href="https://www.facebook.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/facebook.svg" alt="facebook mindgrowthcl" /></a>
-          <a href="https://www.linkedin.com/company/mindgrowth" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/linkedin.svg" alt="linkedin mindgrowth" /></a>
-          <a href="https://www.twitter.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/twitter.svg" alt="twitter mindgrowthcl" /></a>
-          <a href="https://www.instagram.com/mindgrowthcl" target="_blank" rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/instagram.svg" alt="instagram mindgrowthcl" /></a>
+          <a href="https://www.facebook.com/mindgrowthcl"  rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/facebook.svg" alt="facebook mindgrowthcl" /></a>
+          <a href="https://www.linkedin.com/company/mindgrowth"  rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/linkedin.svg" alt="linkedin mindgrowth" /></a>
+          <a href="https://www.twitter.com/mindgrowthcl"  rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/twitter.svg" alt="twitter mindgrowthcl" /></a>
+          <a href="https://www.instagram.com/mindgrowthcl"  rel="noopener"><img class="logo-rrss" src="~/assets/images/svg/icons/instagram.svg" alt="instagram mindgrowthcl" /></a>
         </form>
       </div>
     </div>
