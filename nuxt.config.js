@@ -4,7 +4,6 @@ import path from "path";
 import glob from "glob";
 
 var dynamicRoutes = getDynamicPaths({
-  "/blog": "blog/*.json",
   "/page": "page/*.json"
 });
 
@@ -79,8 +78,7 @@ export default {
     ],
     routes: [
       '/',
-      '/nosotros',
-      '/diagnostico'
+      '/nosotros'
     ]
   },
 
