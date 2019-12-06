@@ -68,7 +68,25 @@ export default {
     "@nuxtjs/markdownit",
     "@nuxtjs/axios", // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/pwa",
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    ['nuxt-lazy-load', {
+      // These are the default values
+      images: true,
+      videos: true,
+      audios: true,
+      iframes: true,
+      directiveOnly: false,
+   
+      // To remove class set value to false
+      loadedClass: 'isLoaded',
+      appendClass: 'lazyLoad',
+      
+      observerConfig: {
+        rootMargin: '50px 0px 50px 0px',
+        threshold: 0
+        // See IntersectionObserver documentation
+      }
+    }]
   ],
 
   sitemap: {
